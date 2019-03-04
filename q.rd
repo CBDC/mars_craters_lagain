@@ -64,14 +64,14 @@
       description="SLE : Single Layered Ejecta, DLE : Double Layered Ejecta MLE : Multiple Layered Ejecta, LARLE : Low-Aspect Ratio Layered Ejecta."
     />
 
-    <column
+    <!-- <column
       name="type"
       type="text"
       ucd="meta.note;meta.main"
       tablehead="type"
       verbLevel="1"
       description="1=Valid, 2=Layered ejecta, 3=Ghost, 4=Secondary, 5=False detections."
-    />
+    /> -->
 
     <column
       name="origin"
@@ -112,8 +112,8 @@
         <var key="processing_level">"5"</var>
         <var key="target_name">"Mars"</var>
         <var key="target_class">"planet"</var>
-        <var key="c1min" source="Lon" />
-        <var key="c1max" source="Lon" />
+        <var key="c1min" source="X" />
+        <var key="c1max" source="X" />
         <var key="c2min" source="Y" />
         <var key="c2max" source="Y" />
         <var key="spatial_frame_type">"body"</var>
